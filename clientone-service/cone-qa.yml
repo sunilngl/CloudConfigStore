@@ -1,2 +1,13 @@
 service:
   greeting: Hello from cone-qa
+server:
+port: 3005
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: member_keyspace
+      port: 9042
+      contact-points: localhost
+      username: cassandra
+      password: cassandra
